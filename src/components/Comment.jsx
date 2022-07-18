@@ -11,7 +11,7 @@ export const Comment = (props) => {
       </div>
       <div className="comment-wrapper">
              <CommentWrapper >
-        <div className="Comment-text">{props.text}</div>
+             <div className="Comment-text">{props.text}</div>
         <div className="Comment-date">{dateFormat(props.date)}</div>
       </CommentWrapper>
       </div>

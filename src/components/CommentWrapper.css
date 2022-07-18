@@ -1,27 +1,39 @@
 .comment {
-  background-color: rgb(255, 165, 0);
   margin-top: 50px;
-  border-radius: 10px;
-  border: 2px solid;
+  
 }
 .comment-wrapper {
-  width: 200px;
-  height: 200px;
-
+  margin-top: 20px;
+  width: 300px;
+  background-color: rgb(255, 165, 0);
+  border: 2px solid;
   text-align: center;
+  font-size: 30px;
 }
-.user-infoo {
-  width: 200px;
-  height: 200px;
+.user-infoo{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: rgb(255, 165, 0);
+  border: 2px solid;
+  
+
+}
+.UserInfo {
+  width: 300px;
+  height: 300px;
   text-align: center;
   margin-bottom: 100px;
-  padding-left: 2px;
+  padding-left: 100px;
+  border-radius: 50px;
+
 }
 .kitty {
   width: 150px;
-  padding: 10px;
+  padding: 30px;
 }
 .avatar {
   font-size: 30px;
-  padding: 0;
+
 }

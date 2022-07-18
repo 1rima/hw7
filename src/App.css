@@ -1,4 +1,4 @@
 .app-block {
-  width: 600px;
-  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
